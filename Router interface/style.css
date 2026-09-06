@@ -1,0 +1,178 @@
+@font-face {
+    font-family: roboto;
+    src: url(writings/Roboto/Roboto-VariableFont_wdth\,wght.ttf);
+}
+body{
+    font-family: roboto;
+    background-color: #333;
+    background-image: url(icons/john-towner-JgOeRuGD_Y4-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    margin-top: 80px;
+}
+.card{
+    margin-top: 60px;
+}
+.settings{
+    background-color: #222;
+    width: 400px;
+    height: 720px;
+    color: white;
+    border: 2px solid #EA580C;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #f97316;
+    
+}
+.settings input{
+    background-color: #333;
+    color: white;
+    border: 2px solid #ea580c;
+    border-radius: 6px;
+    padding: 6px 6px;
+    outline: none;
+}
+.settings button{
+    background: #444;
+    color: white;
+    padding: 6px 6px;
+    border: 3px solid #ea580c;
+    border-radius: 12px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.settings button:hover{
+    transform: scale(1.1);
+}
+hr{
+    width: 300px;
+}
+.reboot{
+    background-color: #222;
+    width: 400px;
+    height: 400px;
+    color: white;
+    border: 2px solid #EA580C;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #f97316;
+}
+.reboot button{
+    background-color: #333;
+    padding: 10px 6px;
+    color: #f97316;
+    border: 2px solid #EA580C;
+    border-radius: 24px;
+    transition: all 0.3s;
+    cursor: pointer;
+    animation: btn-rgb 6s infinite ease-in-out;
+}
+.reboot button:hover{
+    transform: scale(1.1);
+}
+.home{
+    background-color: #222;
+    width: 400px;
+    height: 340px;
+    color: white;
+    border: 2px solid #EA580C;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #f97316;
+}
+.login{
+    background-color: #222;
+    width: 400px;
+    height: 340px;
+    color: white;
+    border: 2px solid #EA580C;
+    border-radius: 12px;
+    box-shadow: 0 0 20px #f97316;    
+}
+.login h2{
+    color: #EA580C;
+}
+.login input{
+    background-color: #444;
+    border: 2px solid #f97316;
+    color: #EA580C;
+    padding: 5px 5px;
+    border-radius: 6px;
+    outline: none;
+}
+.login button{
+    background-color: #333;
+    color: #EA580C;
+    border-radius: 12px;
+    padding: 12px 6px;
+    transition: all 0.3s;
+    animation: btn-rgb 6s infinite ease-in-out;
+    border: 2px solid #EA580C;
+}
+.login button:hover{
+    background-color: #444;
+}
+@keyframes btn-rgb{
+    0%{
+        box-shadow: 0 0 20px #EA580C;
+    }
+    50%{
+        box-shadow: 0 0 30px #f97316;
+    }
+    100%{
+        box-shadow: 0 0 20px #EA580C;
+    }
+}
+header{
+    background-color: #222;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 10px 5px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    z-index: 1000;
+    border-bottom:2px solid #EA580C;
+}
+.logo{
+    height: 80px;
+    width: auto;
+}
+.menu{
+    display: flex;
+    gap: 10px;
+}
+.menu a{
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.menu a:hover{
+    transform: scale(1.15);
+}
+footer{
+    background-color: #222;
+    color: white;
+    height: 60px;
+    padding: 8px 4px;
+    border-top: 2px solid #ea580c;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+.github{
+    height: 24px;
+}
