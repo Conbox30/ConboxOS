@@ -93,7 +93,7 @@ document.getElementById('btn-port').addEventListener('click',function(){
 const devices = [
     {name: 'S26 from Alexander', ip: '192.168.1.162'},
     {name: 'Gaming-PC', ip: '192.168.1.198'},
-    {name: 'Porno-Nas', ip: '192.168.1.169'},
+    {name: 'HomeKino-Nas', ip: '192.168.1.169'},
     {name: 'Synology-Nas', ip: '192.168.1.168'}
 ]
 //render devices and handle ban
